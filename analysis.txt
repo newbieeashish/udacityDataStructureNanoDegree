@@ -1,0 +1,8 @@
+1.	 Task 0:   The main function splits the first list item and the last list item into component parts. These should be O(1) - constant time. 
+2.	Task 1: There are two for loops having O(n) complexity each and two not in conditions with O(x) time complexity each where x is no of items in list.
+	Hence the total time complexity here is O(n^2) 
+3.	Task 2: There for loops in two different functions having O(n) time complexity each and a not in condition  with O(x) time complexity each where x is no of items in list.
+	The not in condition is inside the for loop, So the total time complexity here is O(n^2)
+4.	Task 3: There loop used in the function having O(n) time complexity and additionaly sorted function is used having nlog(n) complexity hence the total time complexity is n(log(n))
+5.	Task 4: There is loops used in the function having O(n) time complexity and and a not in condition  with O(x) time complexity each where x is no of items in list.
+		Hence the total time complexity is O(n^2)
