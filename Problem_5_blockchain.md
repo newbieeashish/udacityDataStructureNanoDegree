@@ -1,0 +1,4 @@
+There is one method I added called add_block which updates the current block.
+
+The time complextity of add_block is O(n) Reason: a new block into our BlockChain class we just move the pointer in case that our tail is None, so the time complexity is O(1) For Searching a block we found that in our worst case we will need to search through the whole BlockChain Class, in this case the time complexity is O(n)
+The space complexity of add_block is O(n) Reason: In each block of the BlockChain Class we are storing the data, the timestamp, the hash and also the previous hash (except for the tail). This means that the amount of data stored increases linearly with the number of nodes in the list.
